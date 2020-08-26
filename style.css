@@ -9,10 +9,12 @@ body{
 	align-items: center;
 	min-height: 100vh;
 }
-.container{
+.container {
 	position: relative;
-	width: 900px;
+	width: 1000px;
 	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -20,12 +22,12 @@ body{
 	position: relative;
 	height: 400px;
 	width: 400px;
-	margin: 20px;
+	margin: 10px;
 }
 .container .imgbox img{
 	position: absolute;
-	top: 0;
-	left: 0;
+	top: 0px;
+	left: 0px;
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
