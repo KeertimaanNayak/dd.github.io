@@ -1,3 +1,13 @@
+body{
+	background-color: white;
+}
+.heading{
+	color: black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 4em;
+    text-shadow: 1px 1px 8px grey;
+    text-align: center;
+}
 .container {
 	position: relative;
 	width: 100%;
@@ -19,12 +29,11 @@
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	display: none; 
+	display: none;
 }
 .Kmaan_left{
 	top:330px;
 }
-
 .imgbox{
 	margin: 0px 5% 330px;
 }
