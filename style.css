@@ -1,5 +1,5 @@
 body{
-	background-color: white;
+	background-color: #e3edf7;
 }
 .heading{
 	color: black;
@@ -29,7 +29,8 @@ body{
 	width: 100%;
 	height: 100%;
 	object-fit: cover;
-	display: none;
+	border-radius: 20px;
+	/*display: none;*/
 }
 .Kmaan_left{
 	top:330px;
