@@ -31,7 +31,7 @@ body{
 	height: 100%;
 	object-fit: cover;
 	border-radius: 20px;
-	/*display: none;*/
+	display: none;
 }
 .container .imgbox .title1{
 	position: absolute;
@@ -203,6 +203,9 @@ body{
 }
 }
 @media(max-width: 420px){
+	.heading{
+		font-size: 2em;
+	}
 	.container{
 		display: flex;
 		flex-direction: column;
