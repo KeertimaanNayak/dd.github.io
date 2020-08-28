@@ -203,55 +203,58 @@ body{
 }
 }
 @media(max-width: 420px){
+	.heading{
+		font-size: 2em;
+	}
 	.container .imgbox{
-		height: 30vw;
-		width: 37%;
+		height: 37vw;
+		width: 40%;
 	}
 	.container .imgbox .title1{
 	position: absolute;
-	left: 310px;
-	top:20px;
-	font-size: 50px;
+	left: 250px;
+	top:-50px;
+	font-size: 30px;
 	font-family: 'Courier New', Courier, monospace;
 	text-shadow: 1px 1px 8px grey;
 }
 .container .imgbox .title11{
 	position: absolute;
-	left: 310px;
-	top:90px;
-	font-size: 30px;
+	left:250px;
+	top:20px;
+	font-size: 20px;
 	font-family: 'Courier New', Courier, monospace;
 	text-shadow: 1px 1px 8px grey;
 }
 .container .imgbox .title2{
 	position: absolute;
-	left: 310px;
-	top:20px;
-	font-size: 50px;
+	left: 250px;
+	top:-50px;
+	font-size: 30px;
 	font-family: 'Courier New', Courier, monospace;
 	text-shadow: 1px 1px 8px grey;
 }
 .container .imgbox .title22{
 	position: absolute;
-	left: 310px;
-	top:90px;
-	font-size: 30px;
+	left: 250px;
+	top:20px;
+	font-size: 20px;
 	font-family: 'Courier New', Courier, monospace;
 	text-shadow: 1px 1px 8px grey;
 }
 .container .imgbox .title{
 	position: absolute;
-	left: 310px;
-	top:20px;
-	font-size: 50px;
+	left: 250px;
+	top:-70px;
+	font-size: 30px;
 	font-family: 'Courier New', Courier, monospace;
 	text-shadow: 1px 1px 8px grey;
 }
 .container .imgbox .title12{
 	position: absolute;
-	left: 310px;
-	top:90px;
-	font-size: 30px;
+	left: 250px;
+	top:20px;
+	font-size: 20px;
 	font-family: 'Courier New', Courier, monospace;
 	text-shadow: 1px 1px 8px grey;
 }
