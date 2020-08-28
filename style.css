@@ -31,7 +31,7 @@ body{
 	height: 100%;
 	object-fit: cover;
 	border-radius: 20px;
-	display: none;
+	/*display: none;*/
 }
 .container .imgbox .title1{
 	position: absolute;
@@ -138,6 +138,71 @@ body{
 }
 }
 @media(max-width: 700px){
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+	.Kmaan_left{
+		top:100px;
+		margin-bottom: 0px;
+	}
+	.Kmaan_right{
+		top:250px;
+	}
+	.container .imgbox{
+		height: 40vw;
+		width:41%;
+	}
+	.container .imgbox .title1{
+	position: absolute;
+	left: 30px;
+	top:-150px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title11{
+	position: absolute;
+	left: 30px;
+	top:-80px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title2{
+	position: absolute;
+	left: 30px;
+	top:-150px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title22{
+	position: absolute;
+	left: 30px;
+	top:-75px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title{
+	position: absolute;
+	left: 30px;
+	top:-150px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title12{
+	position: absolute;
+	left: 30px;
+	top:-75px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+}
+@media(max-width: 420px){
 	.container{
 		display: flex;
 		flex-direction: column;
