@@ -30,7 +30,7 @@ body{
 	height: 100%;
 	object-fit: cover;
 	border-radius: 20px;
-	/*display: none;*/
+	display: none;
 }
 .container .imgbox .title1{
 	position: absolute;
