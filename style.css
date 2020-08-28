@@ -204,8 +204,8 @@ body{
 }
 @media(max-width: 420px){
 	.container .imgbox{
-		height: 70vw;
-		width: 75%;
+		height: 30vw;
+		width: 37%;
 	}
 	.container .imgbox .title1{
 	position: absolute;
