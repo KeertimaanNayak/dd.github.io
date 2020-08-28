@@ -30,11 +30,228 @@ body{
 	height: 100%;
 	object-fit: cover;
 	border-radius: 20px;
-	display: none;
+	/*display: none;*/
+}
+.container .imgbox .title1{
+	position: absolute;
+	left: 200px;
+	top:-300px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title11{
+	position: absolute;
+	left: 200px;
+	top:-220px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title2{
+	position: absolute;
+	left: 200px;
+	top:-450px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title22{
+	position: absolute;
+	left: 200px;
+	top:-375px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title{
+	position: absolute;
+	left: 40px;
+	top:440px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title12{
+	position: absolute;
+	left: 40px;
+	top:515px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
 }
 .Kmaan_left{
-	top:330px;
+	top:310px;
 }
 .imgbox{
 	margin: 0px 5% 330px;
+}
+@media(max-width: 1000px){
+	.container .imgbox .title1{
+	position: absolute;
+	left: 100px;
+	top:-300px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title11{
+	position: absolute;
+	left: 100px;
+	top:-220px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title2{
+	position: absolute;
+	left: 100px;
+	top:-450px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title22{
+	position: absolute;
+	left: 100px;
+	top:-375px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title{
+	position: absolute;
+	left: 40px;
+	top:300px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title12{
+	position: absolute;
+	left: 40px;
+	top:375px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+}
+@media(max-width: 700px){
+	.container{
+		display: flex;
+		flex-direction: column;
+	}
+	.Kmaan_left{
+		top:100px;
+		margin-bottom: 0px;
+	}
+	.Kmaan_right{
+		top:250px;
+	}
+	.container .imgbox{
+		height: 40vw;
+		width:41%;
+	}
+	.container .imgbox .title1{
+	position: absolute;
+	left: 30px;
+	top:-150px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title11{
+	position: absolute;
+	left: 30px;
+	top:-80px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title2{
+	position: absolute;
+	left: 30px;
+	top:-150px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title22{
+	position: absolute;
+	left: 30px;
+	top:-75px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title{
+	position: absolute;
+	left: 30px;
+	top:-150px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title12{
+	position: absolute;
+	left: 30px;
+	top:-75px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+}
+@media(max-width: 420px){
+	.container .imgbox{
+		height: 70vw;
+		width: 75%;
+	}
+	.container .imgbox .title1{
+	position: absolute;
+	left: 310px;
+	top:20px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title11{
+	position: absolute;
+	left: 310px;
+	top:90px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title2{
+	position: absolute;
+	left: 310px;
+	top:20px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title22{
+	position: absolute;
+	left: 310px;
+	top:90px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title{
+	position: absolute;
+	left: 310px;
+	top:20px;
+	font-size: 50px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
+.container .imgbox .title12{
+	position: absolute;
+	left: 310px;
+	top:90px;
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+	text-shadow: 1px 1px 8px grey;
+}
 }
