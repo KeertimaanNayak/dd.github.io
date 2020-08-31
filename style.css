@@ -1,15 +1,13 @@
-body{
-	background-color: #e3edf7;
-	overflow-x: hidden;
-}
-.heading{
-	color: black;
+
+.eventHeading{
+	color: rgb(255, 255, 255);
     font-family: 'Courier New', Courier, monospace;
-    font-size: 4em;
-    text-shadow: 1px 1px 8px grey;
-    text-align: center;
+    font-size: 6vw;
+    /* text-shadow: 1px 1px 8px grey; */
+	text-align: center;
+	background-color: #061a2c;
 }
-.container {
+.eventContainer {
 	position: relative;
 	width: 100%;
 	display: flex;
@@ -18,20 +16,24 @@ body{
 	justify-content: space-between;
 	align-items: center;
 }
-.container .leftcontent{
+.eventContainer .eventContentLeft{
 	width: 50%;
 	height: fit-content;
 	margin: auto 0;
 	float: left;
-	padding-left: 6%;
+	padding: 0 3%;
 	font-size: 20px;
 }
-.container .imgbox{
+.eventContainer .imgbox{
 	position: relative;
 	width: 37%;
-	height:35vw;
+	height:25vw;
+	margin: auto;
+	border: 5px solid #061a2c;
+    border-radius: 20px;
+    background-color: #061a2c;
 }
-.container .imgbox img{
+.eventContainer .imgbox .event_image{
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -41,17 +43,13 @@ body{
 	border-radius: 20px;
 	display: none;
 }
-.container::after{
+.eventContainer::after{
 	content: "";
 	clear: both;
 	display: table;
 }
-.container .imgbox{
-	position: relative;
-	width: 37%;
-	height:35vw;
-}
-.container .rightcontent{
+
+.eventContainer .eventContentRight{
 	width: 50%;
 	height: fit-content;
 	margin: auto 0;
@@ -60,10 +58,31 @@ body{
 	font-size: 20px;
 }
 @media(max-width: 800px){
-	.container .leftcontent{
+
+	.eventContainer .eventContentLeft{
 		font-size: 12px;
 	}
-	.container .rightcontent{
+	.eventContainer .eventContentRight{
 		font-size: 12px;
+	}
+}
+
+@media(max-width: 600px){
+	.eventContentLeft,.eventContentRight{
+		margin: auto;
+		width: 80%;
+	}
+	.Kman_left{
+		flex-direction: column-reverse;
+	}
+	.Kman_right{
+		flex-direction: column;
+	}
+	.imgbox{
+		width: 60%!important;
+		height: 40vw!important;
+	}
+	.eventContainer{
+		text-align: center;
 	}
 }
