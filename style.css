@@ -31,7 +31,6 @@ body{
 	width: 37%;
 	height:35vw;
 	margin: auto 0;
-	float: right;
 }
 .container .rightpic img{
 	position: absolute;
@@ -53,7 +52,6 @@ body{
 	width: 37%;
 	height:35vw;
 	margin: auto 0;
-	float: left;
 }
 .container .leftpic img{
 	position: absolute;
