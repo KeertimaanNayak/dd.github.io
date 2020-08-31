@@ -30,7 +30,6 @@ body{
 	position: relative;
 	width: 37%;
 	height:35vw;
-	margin: auto 0;
 }
 .container .rightpic img{
 	position: absolute;
@@ -51,7 +50,6 @@ body{
 	position: relative;
 	width: 37%;
 	height:35vw;
-	margin: auto 0;
 }
 .container .leftpic img{
 	position: absolute;
