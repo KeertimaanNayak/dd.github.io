@@ -18,255 +18,67 @@ body{
 	justify-content: space-between;
 	align-items: center;
 }
-.container .imgbox{
-	position: relative;
-	height: 30vw;
-	width: 37%;
+.container .leftcontent{
+	width: 50%;
+	height: fit-content;
+	margin: auto 0;
+	float: left;
+	padding-left: 6%;
+	font-size: 20px;
 }
-.container .imgbox img{
+.container .rightpic{
+	position: relative;
+	width: 37%;
+	height:35vw;
+	margin: auto 0;
+	float: right;
+}
+.container .rightpic img{
 	position: absolute;
-	top: 0px;
-	left: 0px;
 	width: 100%;
 	height: 100%;
+	top: 0px;
+	left: 0px;
 	object-fit: cover;
 	border-radius: 20px;
-	display: none;
+	/*display: none;*/
 }
-.container .imgbox .title1{
+.container::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+.container .leftpic{
+	position: relative;
+	width: 37%;
+	height:35vw;
+	margin: auto 0;
+	float: left;
+}
+.container .leftpic img{
 	position: absolute;
-	left: 200px;
-	top:-300px;
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
+	width: 100%;
+	height: 100%;
+	top: 0px;
+	left: 0px;
+	object-fit: cover;
+	border-radius: 20px;
+	padding-left: 7%;
+	/*display: none;*/
 }
-.container .imgbox .title11{
-	position: absolute;
-	left: 200px;
-	top:-220px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title2{
-	position: absolute;
-	left: 200px;
-	top:-450px;
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title22{
-	position: absolute;
-	left: 200px;
-	top:-375px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title{
-	position: absolute;
-	left: 40px;
-	top:440px;
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title12{
-	position: absolute;
-	left: 40px;
-	top:515px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.Kmaan_left{
-	top:310px;
-}
-.imgbox{
-	margin: 0px 5% 330px;
-}
-@media(max-width: 1000px){
-	.container .imgbox .title1{
-	position: absolute;
-	left: 100px;
-	top:-300px;
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title11{
-	position: absolute;
-	left: 100px;
-	top:-220px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title2{
-	position: absolute;
-	left: 100px;
-	top:-450px;
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title22{
-	position: absolute;
-	left: 100px;
-	top:-375px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title{
-	position: absolute;
-	left: 40px;
-	top:300px;
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title12{
-	position: absolute;
-	left: 40px;
-	top:375px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-}
-@media(max-width: 700px){
-	.container{
-		display: flex;
-		flex-direction: column;
-	}
-	.Kmaan_left{
-		top:100px;
-		margin-bottom: 0px;
-	}
-	.Kmaan_right{
-		top:250px;
-	}
-	.container .imgbox{
-		height: 40vw;
-		width:41%;
-	}
-	.container .imgbox .title1{
-	position: absolute;
-	left: 30px;
-	top:-150px;
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title11{
-	position: absolute;
-	left: 30px;
-	top:-80px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title2{
-	position: absolute;
-	left: 30px;
-	top:-150px;
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title22{
-	position: absolute;
-	left: 30px;
-	top:-75px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title{
-	position: absolute;
-	left: 30px;
-	top:-150px;
-	font-size: 50px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title12{
-	position: absolute;
-	left: 30px;
-	top:-75px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-}
-@media(max-width: 420px){
-	.heading{
-		font-size: 2em;
-	}
-	.container{
-		display: flex;
-		flex-direction: column;
-	}
-	.Kmaan_left{
-		top:100px;
-		margin-bottom: 0px;
-	}
-	.Kmaan_right{
-		top:250px;
-	}
-	.container .imgbox{
-		height: 40vw;
-		width:41%;
-	}
-	.container .imgbox .title1{
-	position: absolute;
-	left: 10px;
-	top:-150px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title11{
-	position: absolute;
-	left: 10px;
-	top:-80px;
+.container .rightcontent{
+	width: 50%;
+	height: fit-content;
+	margin: auto 0;
+	float: right;
+	padding-left: 3%;
 	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
 }
-.container .imgbox .title2{
-	position: absolute;
-	left: 10px;
-	top:-150px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title22{
-	position: absolute;
-	left: 10px;
-	top:-75px;
-	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title{
-	position: absolute;
-	left: 10px;
-	top:-150px;
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
-.container .imgbox .title12{
-	position: absolute;
-	left: 10px;
-	top:-75px;
-	font-size: 20px;
-	font-family: 'Courier New', Courier, monospace;
-	text-shadow: 1px 1px 8px grey;
-}
+@media(max-width: 800px){
+	.container .leftcontent{
+		font-size: 12px;
+	}
+	.container .rightcontent{
+		font-size: 12px;
+	}
 }
