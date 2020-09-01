@@ -31,7 +31,6 @@
 	height:25vw;
 	margin: auto;
 	border: 5px solid #061a2c;
-    border-radius: 20px;
     background-color: #061a2c;
 }
 .eventContainer .imgbox .event_image{
@@ -41,7 +40,6 @@
 	top: 0px;
 	left: 0px;
 	object-fit: cover;
-	border-radius: 20px;
 	display: none;
 }
 .eventContainer::after{
